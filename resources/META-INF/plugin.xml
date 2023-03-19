@@ -2,7 +2,7 @@
 <idea-plugin>
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
     <id>Cyberdyne20XX</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
@@ -10,7 +10,7 @@
     <category>UI</category>
 
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
-    <vendor email="support@yourcompany.com" url="https://www.yourcompany.com">YourCompany</vendor>
+    <vendor email="gilescope@gmail.com" url="https://gilescope.ninja">Mr Green</vendor>
 
     <idea-version since-build="221" until-build="231.*"/>
 
@@ -18,8 +18,9 @@
          Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
     <description><![CDATA[
-    Enter short description for your theme here.<br>
-    <em>most HTML tags may be used</em>
+    For people that really, <em>really</em> like green.
+
+    In settings Editor / Colour Scheme / Rust, set scheme to Cyberdyne20.
   ]]></description>
 
     <!-- Short summary of new features and bugfixes in the latest plugin version.
@@ -34,5 +35,8 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <themeProvider id="Cyberdyne20XX" path="/theme/Cyberdyne20XX.theme.json"/>
+        <additionalTextAttributes
+                scheme="Rust"
+                file="Cyberdyne.xml"/>
     </extensions>
 </idea-plugin>
