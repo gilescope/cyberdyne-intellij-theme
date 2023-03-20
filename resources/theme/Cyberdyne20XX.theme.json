@@ -29,7 +29,7 @@
       "visitedForeground": "#5dc48f"
     },
     "Menu": {
-      "separatorColor": "#333333",
+      "separatorColor": "#00ff9c",
       "borderColor": "#171717",
       "foreground": "#00ff9c99",
       "background": "#002212ec"
