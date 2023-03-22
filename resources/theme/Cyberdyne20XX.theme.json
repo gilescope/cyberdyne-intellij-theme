@@ -46,6 +46,9 @@
       "acceleratorForeground": "#CECECE",
       "disabledForeground": "#808080"
     },
+    "PopupMenu": {
+      "background": "#002212ec"
+    },
     "Notification": {
       "background": "#1D1D1D",
       "borderColor": "#00ff9c"
