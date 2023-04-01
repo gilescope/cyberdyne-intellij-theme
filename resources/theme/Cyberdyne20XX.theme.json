@@ -5,6 +5,7 @@
   "editorScheme": "/Cyberdyne.xml",
   "ui": {
     "*": {
+      "background": "#002212ec"
     },
     "ActionButton": {
       "hoverBackground": "#00ff9c33",
@@ -16,17 +17,17 @@
     },
     "Button": {
       "arc": "6",
-      "disabledText": "#6c6c6c",
-      "startBackground": "#202020",
+      "disabledText": "#5dc48fcc",
+      "startBackground": "#002212ec",
       "endBackground": "#002212ec",
-      "default.startBackground": "#323232",
+      "default.startBackground": "#002212ec",
       "default.endBackground": "#002212ec",
-      "shadowColor": "#363636",
+      "shadowColor": "#090a0b",
       "shadowWidth": "2",
       "default.foreground": "#00ff9c",
       "disabledBorderColor": "#171717",
       "focusedBorderColor": "#3c3c3c",
-      "default.focusedBorderColor": "#3c3c3c",
+      "default.focusedBorderColor": "#00ff9c",
       "startBorderColor": "#00ff9c",
       "default.startBorderColor": "#00ff9c",
       "default.endBorderColor": "#5dc48fcc",
@@ -37,7 +38,7 @@
       "arc": "5",
       "focusWidth": "2",
       "borderColor": "#00ff9c",
-      "focusedBorderColor": "#4E4E4E",
+      "focusedBorderColor": "#00ff9c",
       "disabledBorderColor": "#090a0b",
       "infoForeground": "#b0b0b0",
       "focusColor": "#5dc48fcc",
@@ -50,8 +51,12 @@
     "List": {
       "background": "#002212ec"
     },
-      "EditorTabs": {
+    "EditorTabs": {
       "background": "#000000"
+    },
+    "StatusBar.borderColor": "#002212",
+    "Editor.background": "#000000",
+    "EditorPane" : {
     },
     "DefaultTabs": {
       "inactiveUnderlineColor": "#5dc48fcc",
@@ -111,16 +116,15 @@
       "selectionForeground": "#00ff9c",
       "selectionBackground": "#182333"
     },
-    "Editor.background": "#000000",
-    "EditorPane.background": "#000000",
+
     "Table":{
       "background" : "#002212ec",
       "foreground": "#549e8e",
       "selectionBackground": "#002212ec",
-      "gridColor": "#ff0000",
+      "gridColor": "#549e8e",
       "lightSelectionBackground":  "#549e8e",
       "alternativeRowBackground": "#002212ec",
-      "focusCellBackground": "#549e8e",
+      "focusCellBackground": "#549e8e"
     },
     "ToolBar": {
       "background": "#000000",
@@ -132,6 +136,5 @@
     "Window": {
       "border": "#00ff9c"
     }
-
   }
 }
